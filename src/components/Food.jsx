@@ -4,6 +4,24 @@ import {data} from '../data/data.js'
 const Food = () => {
  //   console.log(data)
  const [foods, setFoods] = useState(data)
+
+ //Filter Type Data Pasta
+const filterType =(category) => {
+    setFoods(
+        data.filter((item) => {
+            return item.category === category;
+        })
+    );
+};
+
+// Filter by Price
+const filterPrice = (price) => {
+    setFoods(
+        data.filter((item) => {
+            return item.price === price;
+        })
+    );
+};
     return (
         
         <div className=" max-w-[1640px] m-auto px-4 py-12">
@@ -15,7 +33,7 @@ const Food = () => {
                 <div>
                     <p className=" font-bold text-gray-700">Filter Type</p>
                     <div className=" flex justify-between flex-wrap">
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">All</button>
+                        <button onClick={() => setFoods(data)} className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">All</button>
                         <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Chicken</button>
                         <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Salad</button>
                         <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">pizza</button>

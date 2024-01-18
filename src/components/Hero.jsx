@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className=" px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold"><span className=" text-orange-600">Pasta</span>Delivered</h1>
 
         </div>
-        <img className=" w-full max-h-[500px] object-cover" src="https://images.unsplash.com/photo-1516685018646-549198525c1b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="/"></img>
+        <img className=" w-full max-h-[500px] object-cover" src="https://images.unsplash.com/photo-1671754088986-4c4905e405ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQyfHxwZXRhbmklMjBpbmRvbmVzaWF8ZW58MHx8MHx8fDA%3D" alt="/"></img>
 
     </div>
 

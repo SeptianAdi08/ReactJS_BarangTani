@@ -15,9 +15,9 @@ const [nav, setNav] = useState(false)
             <div onClick={()=> setNav(!nav)} className=' cursor-pointer'>
               <AiOutlineMenu size={30}/>
               </div>
-              <h1 className=' text-2xl sm:text-3xl lg:text-4xl px-2'>Best<span className=' font-bold'>Pasta</span></h1>
+              <h1 className=' text-2xl sm:text-3xl lg:text-4xl px-2 font-bold'>Barang<span className=' font-bold text-green-600'>Tani</span></h1>
               <div className=' hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-                  <p className=' bg-black text-white rounded-full p-2'>Delivery</p>
+                  <p className=' bg-green-600 text-white rounded-full p-2'>Delivery</p>
                   <p className=' p-2'>Pickup</p>
               </div>
            </div>
@@ -25,10 +25,10 @@ const [nav, setNav] = useState(false)
             {/*input search*/}
             <div className=' bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px] '>
                 <AiOutlineSearch size={20}/>
-                <input className=' bg-transparent p-2 w-full focus:outline-none' type='text' placeholder='Search Food' />
+                <input className=' bg-transparent p-2 w-full focus:outline-none' type='text' placeholder='Search Produk Tani' />
             </div>
             {/*card button*/}
-             <button className=' bg-black text-white hidden md:flex items-center py-2'>
+             <button className=' bg-slate-400 text-white hidden md:flex items-center py-2'>
                 <BsFillCartFill size={20} className='mr-2' /> Cart
              </button>
 
@@ -46,7 +46,7 @@ const [nav, setNav] = useState(false)
                    onClick={()=> setNav(!nav)}
                 size={30} className=' absolute right-4 top-4 cursor-pointer'/>
                 <h2 className=' text-2xl p-4'>
-                    Best <span className=' font-bold'>Pasta</span>
+                    Barang <span className=' font-bold text-green-600'>Tani</span>
                 </h2>
                 <nav>
                     <ul className=' flex flex-col p-4 text-gray-800'>
