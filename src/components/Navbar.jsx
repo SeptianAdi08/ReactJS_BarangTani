@@ -28,8 +28,8 @@ const [nav, setNav] = useState(false)
                 <input className=' bg-transparent p-2 w-full focus:outline-none' type='text' placeholder='Search Produk Tani' />
             </div>
             {/*card button*/}
-             <button className=' bg-slate-400 text-white hidden md:flex items-center py-2'>
-                <BsFillCartFill size={20} className='mr-2' /> Cart
+             <button className=' bg-green-500 text-white hidden md:flex items-center py-2'>
+                <BsFillCartFill size={20} className='mr-2 ' /> Cart
              </button>
 
              {/*Mobile Menu*/}

@@ -25,7 +25,7 @@ const filterPrice = (price) => {
     return (
         
         <div className=" max-w-[1640px] m-auto px-4 py-12">
-            <h1 className=" text-orange-600 font-bold text-4xl text-center">Top Rate Menu Items </h1>
+            <h1 className=" text-green-500 font-bold text-4xl text-center">Top Rate Menu Items </h1>
 
             {/* Filter Row */}
             <div className=" flex flex-col lg:flex-row justify-between">
@@ -33,10 +33,10 @@ const filterPrice = (price) => {
                 <div>
                     <p className=" font-bold text-gray-700">Filter Type</p>
                     <div className=" flex justify-between flex-wrap">
-                        <button onClick={() => setFoods(data)} className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">All</button>
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Chicken</button>
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">Salad</button>
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">pizza</button>
+                        <button onClick={() => setFoods(data)} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">All</button>
+                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Chicken</button>
+                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Salad</button>
+                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">pizza</button>
                     </div>
                 </div>
 
@@ -44,10 +44,10 @@ const filterPrice = (price) => {
                 <div>
                     <p className=" font-bold text-gray-700">Filter Price</p>
                     <div className=" flex justify-between max-w-[390px] w-full">
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$</button>
-                        <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$$</button>
-                         <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$$$</button>
-                          <button className=" m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white">$</button>
+                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$</button>
+                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$</button>
+                         <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$</button>
+                          <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$</button>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ const filterPrice = (price) => {
                         <div className=" flex justify-between px-2 py-4">
                             <p className=" font-bold">{item.name}</p>
                             <p>
-                                <span className=" bg-orange-500 text-white p-1 rounded-full">{item.price}</span>
+                                <span className=" bg-green-500 text-white p-1 rounded-full">{item.price}</span>
                             </p>
                             </div>
 
