@@ -34,9 +34,9 @@ const filterPrice = (price) => {
                     <p className=" font-bold text-gray-700">Filter Type</p>
                     <div className=" flex justify-between flex-wrap">
                         <button onClick={() => setFoods(data)} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">All</button>
-                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Chicken</button>
-                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Salad</button>
-                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">pizza</button>
+                        <button onClick={() => filterType('pupuk')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Pupuk</button>
+                        <button onClick={()=> filterType('benih')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Benih</button>
+                        <button onClick={()=> filterType('traktor')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">Traktor</button>
                     </div>
                 </div>
 

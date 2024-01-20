@@ -26,7 +26,7 @@ export const data = [
     {
         id: 4,
         name: 'Petro Ponic',
-        category: 'Pupuk',
+        category: 'pupuk',
         image:
         'https://storage.googleapis.com/pkg-portal-bucket/_productThumb/pg_petroponic.png',
         price: 'RP20.000',
@@ -34,7 +34,7 @@ export const data = [
     {
         id: 5,
         name: 'Double CheesburgerBenih Padi Hibrida Intan 602',
-        category: 'Benih',
+        category: 'benih',
         image:
         'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2021/01/sandy-manoa-Y678onxFoJI-unsplash-scaled-300x300.jpg',
         price: 'RP85.000',
@@ -42,7 +42,7 @@ export const data = [
     {
         id: 6,
         name: 'Benih Padi Membramo',
-        category: 'Benih',
+        category: 'benih',
         image:
         'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2020/12/Padi-300x300.jpg',
         price: 'RP50.000',
@@ -51,7 +51,7 @@ export const data = [
     {
         id: 7,
         name: 'Mesin Panen Padi YH150',
-        category: 'Traktor',
+        category: 'traktor',
         image:
         'https://www.yanmar.com/media/news/2020/02/25062134/img_index_014-300x229.jpg',
         price: 'RP238.000.000',
@@ -60,7 +60,7 @@ export const data = [
     {
         id: 8,
         name: 'Capung Traktor Quick',
-        category: 'Traktor',
+        category: 'traktor',
         image:
         'https://p-id.ipricegroup.com/98c66fdcc83a32dd032867aef8f8c53ec42db8e9_0.jpg',
         price: 'RP10.350.000',
@@ -72,58 +72,57 @@ export const data = [
 export const categories = [
     {
         id: 1,
-        name: 'Fast Food',
+        name: 'pupuk',
         image: 
-        'https://images.pexels.com/photos/2433979/pexels-photo-2433979.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://storage.googleapis.com/pkg-portal-bucket/_productThumb/pg_subnonsub_urea.png',
 
     },
     {
         id: 2,
-        name: 'Fast Food',
+        name: 'pupuk',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://storage.googleapis.com/pkg-portal-bucket/images/product/_productThumb/3D-ZA.png',
 
     },
     {
         id: 3,
-        name: 'Fast Food',
+        name: 'pupuk',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://storage.googleapis.com/pkg-portal-bucket/images/product/_productThumb/Biofertille-new-transparant.png',
 
     },
     {
         id: 4,
-        name: 'Fast Food',
+        name: 'pupuk',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://storage.googleapis.com/pkg-portal-bucket/_productThumb/pg_petroponic.png',
 
     },
     {
         id: 5,
-        name: 'Fast Food',
+        name: 'benih',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
-
+        'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2021/01/sandy-manoa-Y678onxFoJI-unsplash-scaled-300x300.jpg',
     },
     {
         id: 6,
-        name: 'Fast Food',
+        name: 'benih',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2020/12/Padi-300x300.jpg',
 
     },
     {
         id: 7,
-        name: 'Fast Food',
+        name: 'traktor',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://www.yanmar.com/media/news/2020/02/25062134/img_index_014-300x229.jpg',
 
     },
     {
         id: 8,
-        name: 'Fast Food',
+        name: 'traktor',
         image: 
-        'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBhc3RhfGVufDB8fDB8fHww',
+        'https://p-id.ipricegroup.com/98c66fdcc83a32dd032867aef8f8c53ec42db8e9_0.jpg',
 
     },
 ]
