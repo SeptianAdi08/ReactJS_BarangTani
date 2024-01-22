@@ -72,57 +72,57 @@ export const data = [
 export const categories = [
     {
         id: 1,
-        name: 'pupuk',
+        name: 'Pupuk Urea',
         image: 
-        'https://storage.googleapis.com/pkg-portal-bucket/_productThumb/pg_subnonsub_urea.png',
+        'https://cdn-icons-png.flaticon.com/128/3072/3072498.png',
 
     },
     {
         id: 2,
-        name: 'pupuk',
+        name: 'Pupuk Kompos',
         image: 
-        'https://storage.googleapis.com/pkg-portal-bucket/images/product/_productThumb/3D-ZA.png',
+        'https://cdn-icons-png.flaticon.com/128/1465/1465973.png',
 
     },
     {
         id: 3,
-        name: 'pupuk',
+        name: 'Pupuk Kandang',
         image: 
-        'https://storage.googleapis.com/pkg-portal-bucket/images/product/_productThumb/Biofertille-new-transparant.png',
+        'https://cdn-icons-png.flaticon.com/128/1993/1993780.png',
 
     },
     {
         id: 4,
-        name: 'pupuk',
+        name: 'Benih Padi',
         image: 
-        'https://storage.googleapis.com/pkg-portal-bucket/_productThumb/pg_petroponic.png',
+        'https://cdn-icons-png.flaticon.com/128/2713/2713519.png',
 
     },
     {
         id: 5,
-        name: 'benih',
+        name: 'Benih Jagung',
         image: 
-        'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2021/01/sandy-manoa-Y678onxFoJI-unsplash-scaled-300x300.jpg',
+        'https://cdn-icons-png.flaticon.com/128/3236/3236106.png',
     },
     {
         id: 6,
-        name: 'benih',
+        name: 'Benih Kedelai',
         image: 
-        'https://pbpp.pertanian.jatimprov.go.id/wp-content/uploads/2020/12/Padi-300x300.jpg',
+        'https://cdn-icons-png.flaticon.com/128/6113/6113692.png',
 
     },
     {
         id: 7,
-        name: 'traktor',
+        name: 'Mesin Semprot',
         image: 
-        'https://www.yanmar.com/media/news/2020/02/25062134/img_index_014-300x229.jpg',
+        'https://cdn-icons-png.flaticon.com/128/5863/5863526.png',
 
     },
     {
         id: 8,
-        name: 'traktor',
+        name: 'Traktor',
         image: 
-        'https://p-id.ipricegroup.com/98c66fdcc83a32dd032867aef8f8c53ec42db8e9_0.jpg',
+        'https://cdn-icons-png.flaticon.com/128/2548/2548758.png',
 
     },
 ]
