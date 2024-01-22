@@ -44,10 +44,10 @@ const filterPrice = (price) => {
                 <div>
                     <p className=" font-bold text-gray-700">Filter Price</p>
                     <div className=" flex justify-between max-w-[390px] w-full">
-                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$</button>
-                        <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$</button>
-                         <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$</button>
-                          <button className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$</button>
+                        <button onClick={()=> filterPrice('$')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$</button>
+                        <button onClick={()=> filterPrice('$$')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$</button>
+                         <button onClick={()=> filterPrice('$$$')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$</button>
+                          <button onClick={()=> filterPrice('$$$$')} className=" m-1 border-green-500 text-green-500 hover:bg-green-500 hover:text-white">$$$$</button>
                     </div>
                 </div>
             </div>
