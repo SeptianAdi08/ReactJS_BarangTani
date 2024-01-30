@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/SeptianAdi08/ReactJS_BarangTani/static/css/main.d8283edf.css",
-    "main.js": "/SeptianAdi08/ReactJS_BarangTani/static/js/main.b26ce8e2.js",
-    "index.html": "/SeptianAdi08/ReactJS_BarangTani/index.html",
-    "main.d8283edf.css.map": "/SeptianAdi08/ReactJS_BarangTani/static/css/main.d8283edf.css.map",
-    "main.b26ce8e2.js.map": "/SeptianAdi08/ReactJS_BarangTani/static/js/main.b26ce8e2.js.map"
+    "main.css": "/ReactJS_BarangTani/static/css/main.d8283edf.css",
+    "main.js": "/ReactJS_BarangTani/static/js/main.b26ce8e2.js",
+    "index.html": "/ReactJS_BarangTani/index.html",
+    "main.d8283edf.css.map": "/ReactJS_BarangTani/static/css/main.d8283edf.css.map",
+    "main.b26ce8e2.js.map": "/ReactJS_BarangTani/static/js/main.b26ce8e2.js.map"
   },
   "entrypoints": [
     "static/css/main.d8283edf.css",
